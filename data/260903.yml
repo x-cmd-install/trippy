@@ -1,19 +1,21 @@
 about:
-  description: A network diagnostic tool 
+  description:
+  |
+    A network diagnostic tool 
   license: Apache-2.0
   homepage: https://trippy.rs
   head: 2e69fcf
   archived: false
   latestVersion: 0.13.0
-  collectedAt: 2026-09-03T05:14:17Z
+  collectedAt: 2026-09-03T22:35:31Z
 timeline:
   created: 2022-03-28
   lastCommit: 2026-09-02
   lastRelease: 2025-05-05
 popularity:
-  star: 7813
+  star: 7831
   watcher: 26
-  fork: 280
+  fork: 281
   release: 16
   contributor: 26
   pullRequest: 301
@@ -23,7 +25,7 @@ language:
   Shell: 2674
   Dockerfile: 2520
   Makefile: 318
-totalLine: 1197967
+totalBytes: 1197967
 recent:
   last30d:
     since: 2026-08-04
