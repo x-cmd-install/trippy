@@ -5,13 +5,13 @@ about:
   head: 2e69fcf
   archived: false
   latestVersion: "0.13.0"
-  collectedAt: 2026-09-07T04:21:34Z
+  collectedAt: 2026-09-07T20:13:43Z
 timeline:
   created: 2022-03-28
   lastCommit: 2026-09-02
   lastRelease: 2025-05-05
 popularity:
-  star: 7870
+  star: 7875
   watcher: 27
   fork: 283
   release: 16
@@ -82,7 +82,7 @@ total:
   commit: 2154
 ---
 path: /home/runner/.x-repo/github.com/fujiapple852/trippy
-collectedAt: 2026-09-07T04:21:37Z
+collectedAt: 2026-09-07T20:13:45Z
 loc:
   Rust:
     code: 26744
@@ -148,7 +148,7 @@ total:
 
 ---
 eget:
-  collectedAt: 2026-09-07T04:21:38+00:00
+  collectedAt: 2026-09-07T20:13:46+00:00
   platform:
     darwin/arm64:
       name:  trippy-0.13.0-aarch64-apple-darwin.tar.gz
