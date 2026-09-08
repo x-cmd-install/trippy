@@ -5,18 +5,18 @@ about:
   head: 2e69fcf
   archived: false
   latestVersion: "0.13.0"
-  collectedAt: 2026-09-08T01:35:12Z
+  collectedAt: 2026-09-08T04:22:08Z
 timeline:
   created: 2022-03-28
   lastCommit: 2026-09-02
   lastRelease: 2025-05-05
 popularity:
-  star: 7876
+  star: 7877
   watcher: 27
   fork: 283
   release: 16
   contributor: 26
-  pullRequest: 1516
+  pullRequest: 1517
   issue: 356
 language:
   Rust: 1192455
@@ -29,7 +29,7 @@ recent:
     since: 2026-08-09
     release: 0
     mergedPR: 3
-    openPR: 7
+    openPR: 8
     closedIssue: 0
     openIssue: 0
     commit: 2
@@ -37,7 +37,7 @@ recent:
     since: 2026-07-10
     release: 0
     mergedPR: 12
-    openPR: 10
+    openPR: 11
     closedIssue: 1
     openIssue: 0
     commit: 17
@@ -45,7 +45,7 @@ recent:
     since: 2026-06-10
     release: 0
     mergedPR: 20
-    openPR: 12
+    openPR: 13
     closedIssue: 1
     openIssue: 1
     commit: 24
@@ -53,7 +53,7 @@ recent:
     since: 2026-03-12
     release: 0
     mergedPR: 64
-    openPR: 14
+    openPR: 15
     closedIssue: 9
     openIssue: 4
     commit: 76
@@ -61,7 +61,7 @@ recent:
     since: 2025-09-13
     release: 0
     mergedPR: 131
-    openPR: 15
+    openPR: 16
     closedIssue: 21
     openIssue: 10
     commit: 161
@@ -69,20 +69,20 @@ recent:
     since: 2024-09-18
     release: 4
     mergedPR: 363
-    openPR: 19
+    openPR: 20
     closedIssue: 71
     openIssue: 27
     commit: 496
 total:
   release: 16
   mergedPR: 1213
-  openPR: 20
+  openPR: 21
   closedIssue: 295
   openIssue: 61
   commit: 2154
 ---
 path: /home/runner/.x-repo/github.com/fujiapple852/trippy
-collectedAt: 2026-09-08T01:35:14Z
+collectedAt: 2026-09-08T04:22:12Z
 loc:
   Rust:
     code: 26744
