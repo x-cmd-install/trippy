@@ -12,6 +12,18 @@ A network diagnostic tool
 x install trippy
 ```
 
+## Code insight
+
+Total: **37,581** lines of code across **164** files in the top 5 languages.
+
+| Language | Code | Comments | Blanks | Files |
+|----------|-----:|---------:|-------:|------:|
+| Rust | 26,744 | 226 | 2,369 | 99 |
+| Json | 7,330 | 0 | 0 | 6 |
+| Toml | 2,746 | 276 | 363 | 47 |
+| Svg | 477 | 0 | 36 | 11 |
+| Yaml | 82 | 0 | 4 | 1 |
+
 ## Source
 
 - **Upstream**: <https://github.com/fujiapple852/trippy>
@@ -23,6 +35,25 @@ x install trippy
 - **Latest**: `0.13.0` (2025-05-05)
 - **Last commit**: 2026-09-02
 - **Assets in release**: 17
+
+## Popularity
+
+- **Stars**: 7,897 · **Forks**: 283 · **Open issues**: 356 · **Contributors**: 26
+
+## Totals (cumulative)
+
+- **Releases**: 16 · **Merged PRs**: 1213 · **Open PRs**: 22 · **Closed issues**: 295 · **Open issues**: 61 · **Commits**: 2154
+
+## Recent activity
+
+| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 0 | 3 | 7 | 0 | 0 | 2 |
+| last60d | 2026-07-12 | 0 | 12 | 12 | 1 | 0 | 17 |
+| 90d | 2026-06-12 | 0 | 18 | 14 | 1 | 1 | 24 |
+| last180d | 2026-03-14 | 0 | 62 | 16 | 9 | 4 | 76 |
+| 360d | 2025-09-15 | 0 | 131 | 17 | 21 | 10 | 161 |
+| last720d | 2024-09-20 | 4 | 363 | 21 | 71 | 27 | 496 |
 
 ## Release assets
 
@@ -46,33 +77,22 @@ x install trippy
 | [trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb) | 2.2 MiB | `native/linux/x64/glibc` |
 | [trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb) | 2.3 MiB | `native/linux/x64/musl` |
 
-## Popularity
+## Distribution status
 
-- **Stars**: 7,894 · **Forks**: 284 · **Open issues**: 356 · **Contributors**: 26
+Reported by **54** distros on [repology.org](https://repology.org/project/trippy). **40** are ✅ on the latest upstream release, **10** are ⚠️ on an older version.
 
-## Totals (cumulative)
-
-- **Releases**: 16 · **Merged PRs**: 1213 · **Open PRs**: 22 · **Closed issues**: 295 · **Open issues**: 61 · **Commits**: 2154
-
-## Recent activity
-
-| Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 3 | 7 | 0 | 0 | 2 |
-| 90d | 2026-06-12 | 0 | 18 | 14 | 1 | 1 | 24 |
-| 360d | 2025-09-15 | 0 | 131 | 17 | 21 | 10 | 161 |
-
-## Code size
-
-Total: **37,581** lines of code across **164** files in the top 5 languages.
-
-| Language | Code | Comments | Blanks | Files |
-|----------|-----:|---------:|-------:|------:|
-| Rust | 26,744 | 226 | 2,369 | 99 |
-| Json | 7,330 | 0 | 0 | 6 |
-| Toml | 2,746 | 276 | 363 | 47 |
-| Svg | 477 | 0 | 36 | 11 |
-| Yaml | 82 | 0 | 4 | 1 |
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `0.13.0` | ✅ latest |
+| Debian 14 | `0.13.0` | ✅ latest |
+| Debian 13 | `0.12.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.13.0` | ✅ latest |
+| Arch | `0.13.0` | ✅ latest |
+| Homebrew | `0.13.0` | ✅ latest |
+| Nix unstable | `0.13.0` | ✅ latest |
+| Void | `0.13.0` | ✅ latest |
+| Alpine edge | `0.13.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.13.0` | ✅ latest |
 
 ## Improve this data
 
@@ -83,4 +103,4 @@ Install metadata for trippy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T15:50:10Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T20:14:28Z._
