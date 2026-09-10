@@ -7,7 +7,7 @@ about:
   latestVersion: "0.13.0"
   latestRelease: "0.13.0"
   latestPrerelease: "0.5.0"
-  collectedAt: 2026-09-10T04:25:17Z
+  collectedAt: 2026-09-10T15:50:01Z
 timeline:
   created: 2022-03-28
   lastCommit: 2026-09-02
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-05-05
   lastPrerelease: 2022-06-02
 popularity:
-  star: 7891
+  star: 7894
   watcher: 27
   fork: 284
   release: 16
@@ -86,7 +86,7 @@ total:
   commit: 2154
 ---
 path: /home/runner/.x-repo/github.com/fujiapple852/trippy
-collectedAt: 2026-09-10T04:25:19Z
+collectedAt: 2026-09-10T15:50:03Z
 loc:
   Rust:
     code: 26744
