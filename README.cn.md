@@ -4,7 +4,7 @@
 
 A network diagnostic tool 
 
-![trippy](https://repo.x-cmd.io/trippy.svg)
+![trippy](https://repo.x-cmd.io/trippy.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,32 @@ x install trippy
 - **最新版本**: `0.13.0` (2025-05-05)
 - **最近提交**: 2026-09-02
 - **Release 含资产**: 17 个
-- **发布时间**: 2025-05-05T12:35:13Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [trippy-0.13.0-aarch64-apple-darwin.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-apple-darwin.tar.gz) | 3.1 MiB | `native/darwin/arm64` |
+| [trippy-0.13.0-aarch64-pc-windows-msvc.zip](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-pc-windows-msvc.zip) | 2.9 MiB | `native/win/arm64` |
+| [trippy-0.13.0-aarch64-unknown-linux-gnu.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-unknown-linux-gnu.tar.gz) | 3.3 MiB | `native/linux/arm64/glibc` |
+| [trippy-0.13.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-unknown-linux-musl.tar.gz) | 3.2 MiB | `native/linux/arm64/musl` |
+| [trippy-0.13.0-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-armv7-unknown-linux-gnueabihf.tar.gz) | 3.4 MiB | `native/linux/arm/glibc` |
+| [trippy-0.13.0-armv7-unknown-linux-musleabi.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-armv7-unknown-linux-musleabi.tar.gz) | 3.3 MiB | `native/linux/arm/musl` |
+| [trippy-0.13.0-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-armv7-unknown-linux-musleabihf.tar.gz) | 3.4 MiB | `native/linux/arm/musl` |
+| [trippy-0.13.0-x86_64-apple-darwin.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-apple-darwin.tar.gz) | 3.2 MiB | `native/darwin/x64` |
+| [trippy-0.13.0-x86_64-pc-windows-gnu.zip](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-pc-windows-gnu.zip) | 3.1 MiB | `native/win/x64` |
+| [trippy-0.13.0-x86_64-pc-windows-msvc.zip](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-pc-windows-msvc.zip) | 3.0 MiB | `native/win/x64` |
+| [trippy-0.13.0-x86_64-unknown-freebsd.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-unknown-freebsd.tar.gz) | 3.4 MiB | `native/linux/x64` |
+| [trippy-0.13.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-unknown-linux-gnu.tar.gz) | 3.4 MiB | `native/linux/x64/glibc` |
+| [trippy-0.13.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-unknown-linux-musl.tar.gz) | 3.5 MiB | `native/linux/x64/musl` |
+| [trippy-0.13.0-x86_64-unknown-netbsd.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-unknown-netbsd.tar.gz) | 3.4 MiB | `native/linux/x64` |
+| [trippy-0.13.0-x86_64.rpm](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64.rpm) | 2.6 MiB | `other` |
+| [trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb) | 2.2 MiB | `native/linux/x64/glibc` |
+| [trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb) | 2.3 MiB | `native/linux/x64/musl` |
 
 ## 流行度
 
-- **Star**: 7,891 · **Fork**: 284 · **开放 issue**: 356 · **贡献者**: 26
+- **Star**: 7,894 · **Fork**: 284 · **开放 issue**: 356 · **贡献者**: 26
 
 ## 累计统计
 
@@ -62,4 +83,4 @@ trippy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:25:23Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:50:11Z._

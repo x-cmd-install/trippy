@@ -23,11 +23,32 @@ x install trippy
 - **Latest**: `0.13.0` (2025-05-05)
 - **Last commit**: 2026-09-02
 - **Assets in release**: 17
-- **Published**: 2025-05-05T12:35:13Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [trippy-0.13.0-aarch64-apple-darwin.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-apple-darwin.tar.gz) | 3.1 MiB | `native/darwin/arm64` |
+| [trippy-0.13.0-aarch64-pc-windows-msvc.zip](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-pc-windows-msvc.zip) | 2.9 MiB | `native/win/arm64` |
+| [trippy-0.13.0-aarch64-unknown-linux-gnu.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-unknown-linux-gnu.tar.gz) | 3.3 MiB | `native/linux/arm64/glibc` |
+| [trippy-0.13.0-aarch64-unknown-linux-musl.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-unknown-linux-musl.tar.gz) | 3.2 MiB | `native/linux/arm64/musl` |
+| [trippy-0.13.0-armv7-unknown-linux-gnueabihf.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-armv7-unknown-linux-gnueabihf.tar.gz) | 3.4 MiB | `native/linux/arm/glibc` |
+| [trippy-0.13.0-armv7-unknown-linux-musleabi.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-armv7-unknown-linux-musleabi.tar.gz) | 3.3 MiB | `native/linux/arm/musl` |
+| [trippy-0.13.0-armv7-unknown-linux-musleabihf.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-armv7-unknown-linux-musleabihf.tar.gz) | 3.4 MiB | `native/linux/arm/musl` |
+| [trippy-0.13.0-x86_64-apple-darwin.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-apple-darwin.tar.gz) | 3.2 MiB | `native/darwin/x64` |
+| [trippy-0.13.0-x86_64-pc-windows-gnu.zip](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-pc-windows-gnu.zip) | 3.1 MiB | `native/win/x64` |
+| [trippy-0.13.0-x86_64-pc-windows-msvc.zip](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-pc-windows-msvc.zip) | 3.0 MiB | `native/win/x64` |
+| [trippy-0.13.0-x86_64-unknown-freebsd.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-unknown-freebsd.tar.gz) | 3.4 MiB | `native/linux/x64` |
+| [trippy-0.13.0-x86_64-unknown-linux-gnu.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-unknown-linux-gnu.tar.gz) | 3.4 MiB | `native/linux/x64/glibc` |
+| [trippy-0.13.0-x86_64-unknown-linux-musl.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-unknown-linux-musl.tar.gz) | 3.5 MiB | `native/linux/x64/musl` |
+| [trippy-0.13.0-x86_64-unknown-netbsd.tar.gz](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-unknown-netbsd.tar.gz) | 3.4 MiB | `native/linux/x64` |
+| [trippy-0.13.0-x86_64.rpm](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64.rpm) | 2.6 MiB | `other` |
+| [trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb) | 2.2 MiB | `native/linux/x64/glibc` |
+| [trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb) | 2.3 MiB | `native/linux/x64/musl` |
 
 ## Popularity
 
-- **Stars**: 7,891 · **Forks**: 284 · **Open issues**: 356 · **Contributors**: 26
+- **Stars**: 7,894 · **Forks**: 284 · **Open issues**: 356 · **Contributors**: 26
 
 ## Totals (cumulative)
 
@@ -58,8 +79,8 @@ Total: **37,581** lines of code across **164** files in the top 5 languages.
 Install metadata for trippy lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `trippy` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/trippy.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/trippy.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:25:23Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T15:50:10Z._
