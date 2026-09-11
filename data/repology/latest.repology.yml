@@ -11,6 +11,18 @@
     - ncts@debian.org
   categories:
     - net
+- repo: pkgsrc_current
+  srcname: net/trippy
+  binname: trippy
+  visiblename: net/trippy
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: Network diagnostic tool
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - net
 - repo: raspbian_stable
   subrepo: main
   srcname: trippy
@@ -37,15 +49,45 @@
     - ncts@debian.org
   categories:
     - misc
-- repo: chimera
-  subrepo: user
+- repo: liguros_develop
+  srcname: net-analyzer/trippy
+  visiblename: net-analyzer/trippy
+  version: 0.12.2
+  origversion: null
+  status: legacy
+  summary: A network diagnostic tool
+  maintainers:
+    - flow@gentoo.org
+  licenses:
+    - Apache-2.0
+    - BSD
+    - ISC
+    - MIT
+    - Unicode-3.0
+    - WTFPL-2
+    - ZLIB
+  categories:
+    - net-analyzer
+- repo: manjaro_stable
+  subrepo: extra
   srcname: trippy
-  binname: trippy-fishcomp
-  visiblename: trippy-fishcomp
+  binname: trippy
+  visiblename: trippy
   version: 0.13.0
-  origversion: 0.13.0-r0
+  origversion: 0.13.0-2
   status: newest
-  summary: Network diagnostic tool combining traceroute and ping (fish completions)
+  summary: A network diagnostic tool
+  licenses:
+    - Apache-2.0
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: trippy
+  binname: trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  summary: A network diagnostic tool
   licenses:
     - Apache-2.0
 - repo: manjaro_unstable
@@ -59,18 +101,6 @@
   summary: A network diagnostic tool
   licenses:
     - Apache-2.0
-- repo: pkgsrc_current
-  srcname: net/trippy
-  binname: trippy
-  visiblename: net/trippy
-  version: 0.13.0
-  origversion: null
-  status: newest
-  summary: Network diagnostic tool
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - net
 - repo: alpine_edge
   subrepo: testing
   srcname: trippy
@@ -157,6 +187,17 @@
   origversion: 0.13.0-r0
   status: newest
   summary: Network diagnostic tool combining traceroute and ping (bash completions)
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: trippy
+  binname: trippy-fishcomp
+  visiblename: trippy-fishcomp
+  version: 0.13.0
+  origversion: 0.13.0-r0
+  status: newest
+  summary: Network diagnostic tool combining traceroute and ping (fish completions)
   licenses:
     - Apache-2.0
 - repo: chimera
@@ -370,86 +411,6 @@
     - ZLIB
   categories:
     - net-analyzer
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: trippy
-  binnames:
-    - trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0+dfsg-1.4
-  status: newest
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: trippy
-  binnames:
-    - trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0+dfsg-3
-  status: newest
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - universe/misc
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: trippy
-  binname: trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0_1
-  status: newest
-  summary: Tool to assist with analysis of networking issues
-  maintainers:
-    - pangolin@vivaldi.net
-  licenses:
-    - Apache-2.0
-- repo: liguros_develop
-  srcname: net-analyzer/trippy
-  visiblename: net-analyzer/trippy
-  version: 0.12.2
-  origversion: null
-  status: legacy
-  summary: A network diagnostic tool
-  maintainers:
-    - flow@gentoo.org
-  licenses:
-    - Apache-2.0
-    - BSD
-    - ISC
-    - MIT
-    - Unicode-3.0
-    - WTFPL-2
-    - ZLIB
-  categories:
-    - net-analyzer
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: trippy
-  binname: trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0-2
-  status: newest
-  summary: A network diagnostic tool
-  licenses:
-    - Apache-2.0
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: trippy
-  binname: trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0-2
-  status: newest
-  summary: A network diagnostic tool
-  licenses:
-    - Apache-2.0
 - repo: msys2_clang64
   srcname: mingw-w64-trippy
   binname: mingw-w64-clang-x86_64-trippy
@@ -670,3 +631,42 @@
     - ncts@debian.org
   categories:
     - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0+dfsg-1.4
+  status: newest
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0+dfsg-3
+  status: newest
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: trippy
+  binname: trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0_1
+  status: newest
+  summary: Tool to assist with analysis of networking issues
+  maintainers:
+    - pangolin@vivaldi.net
+  licenses:
+    - Apache-2.0
