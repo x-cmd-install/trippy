@@ -38,22 +38,22 @@ Total: **37,581** lines of code across **164** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 7,914 · **Forks**: 284 · **Open issues**: 357 · **Contributors**: 26
+- **Stars**: 7,919 · **Forks**: 284 · **Open issues**: 357 · **Contributors**: 26
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 1214 · **Open PRs**: 22 · **Closed issues**: 295 · **Open issues**: 62 · **Commits**: 2155
+- **Releases**: 16 · **Merged PRs**: 1214 · **Open PRs**: 23 · **Closed issues**: 295 · **Open issues**: 62 · **Commits**: 2155
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 3 | 7 | 0 | 1 | 3 |
-| last60d | 2026-07-15 | 0 | 11 | 12 | 1 | 1 | 18 |
-| 90d | 2026-06-15 | 0 | 19 | 14 | 1 | 2 | 25 |
-| last180d | 2026-03-17 | 0 | 62 | 16 | 9 | 5 | 77 |
-| 360d | 2025-09-18 | 0 | 131 | 17 | 21 | 11 | 162 |
-| last720d | 2024-09-23 | 4 | 364 | 21 | 71 | 28 | 497 |
+| 30d | 2026-08-15 | 0 | 3 | 8 | 0 | 1 | 3 |
+| last60d | 2026-07-16 | 0 | 11 | 13 | 1 | 1 | 7 |
+| 90d | 2026-06-16 | 0 | 19 | 15 | 1 | 2 | 24 |
+| last180d | 2026-03-18 | 0 | 61 | 17 | 9 | 5 | 76 |
+| 360d | 2025-09-19 | 0 | 130 | 18 | 21 | 11 | 161 |
+| last720d | 2024-09-24 | 4 | 364 | 22 | 71 | 28 | 497 |
 
 ## Release assets
 
@@ -77,23 +77,6 @@ Total: **37,581** lines of code across **164** files in the top 5 languages.
 | [trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb) | 2.2 MiB | `native/linux/x64/glibc` |
 | [trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb) | 2.3 MiB | `native/linux/x64/musl` |
 
-## Distribution status
-
-Reported by **54** distros on [repology.org](https://repology.org/project/trippy). **40** are ✅ on the latest upstream release, **10** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `0.13.0` | ✅ latest |
-| Debian 14 | `0.13.0` | ✅ latest |
-| Debian 13 | `0.12.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.13.0` | ✅ latest |
-| Arch | `0.13.0` | ✅ latest |
-| Homebrew | `0.13.0` | ✅ latest |
-| Nix unstable | `0.13.0` | ✅ latest |
-| Void | `0.13.0` | ✅ latest |
-| Alpine edge | `0.13.0` | ✅ latest |
-| openSUSE Tumbleweed | `0.13.0` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for trippy lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `trippy` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -103,4 +86,4 @@ Install metadata for trippy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T04:36:11Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T04:42:34Z._

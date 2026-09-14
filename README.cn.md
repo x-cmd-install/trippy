@@ -38,22 +38,22 @@ x install trippy
 
 ## 流行度
 
-- **Star**: 7,914 · **Fork**: 284 · **开放 issue**: 357 · **贡献者**: 26
+- **Star**: 7,919 · **Fork**: 284 · **开放 issue**: 357 · **贡献者**: 26
 
 ## 累计统计
 
-- **发布数**: 16 · **已合并 PR**: 1214 · **开放 PR**: 22 · **已关闭 issue**: 295 · **开放 issue**: 62 · **提交数**: 2155
+- **发布数**: 16 · **已合并 PR**: 1214 · **开放 PR**: 23 · **已关闭 issue**: 295 · **开放 issue**: 62 · **提交数**: 2155
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 0 | 3 | 7 | 0 | 1 | 3 |
-| last60d | 2026-07-15 | 0 | 11 | 12 | 1 | 1 | 18 |
-| 90d | 2026-06-15 | 0 | 19 | 14 | 1 | 2 | 25 |
-| last180d | 2026-03-17 | 0 | 62 | 16 | 9 | 5 | 77 |
-| 360d | 2025-09-18 | 0 | 131 | 17 | 21 | 11 | 162 |
-| last720d | 2024-09-23 | 4 | 364 | 21 | 71 | 28 | 497 |
+| 30d | 2026-08-15 | 0 | 3 | 8 | 0 | 1 | 3 |
+| last60d | 2026-07-16 | 0 | 11 | 13 | 1 | 1 | 7 |
+| 90d | 2026-06-16 | 0 | 19 | 15 | 1 | 2 | 24 |
+| last180d | 2026-03-18 | 0 | 61 | 17 | 9 | 5 | 76 |
+| 360d | 2025-09-19 | 0 | 130 | 18 | 21 | 11 | 161 |
+| last720d | 2024-09-24 | 4 | 364 | 22 | 71 | 28 | 497 |
 
 ## Release 资产
 
@@ -77,23 +77,6 @@ x install trippy
 | [trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb) | 2.2 MiB | `native/linux/x64/glibc` |
 | [trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb) | 2.3 MiB | `native/linux/x64/musl` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/trippy) 上共有 **54** 个发行版报告此项目。**40** 个 ✅ 已是最新上游版本，**10** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `0.13.0` | ✅ latest |
-| Debian 14 | `0.13.0` | ✅ latest |
-| Debian 13 | `0.12.2` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `0.13.0` | ✅ latest |
-| Arch | `0.13.0` | ✅ latest |
-| Homebrew | `0.13.0` | ✅ latest |
-| Nix unstable | `0.13.0` | ✅ latest |
-| Void | `0.13.0` | ✅ latest |
-| Alpine edge | `0.13.0` | ✅ latest |
-| openSUSE Tumbleweed | `0.13.0` | ✅ latest |
-
 ## 改进这些数据
 
 trippy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `trippy` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -103,4 +86,4 @@ trippy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T04:36:12Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T04:42:34Z._
