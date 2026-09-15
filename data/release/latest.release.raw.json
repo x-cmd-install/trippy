@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 3246346,
       "digest": null,
-      "download_count": 2406,
+      "download_count": 2413,
       "created_at": "2025-05-05T12:38:28Z",
       "updated_at": "2025-05-05T12:38:28Z",
       "browser_download_url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-apple-darwin.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 3008060,
       "digest": null,
-      "download_count": 1194,
+      "download_count": 1196,
       "created_at": "2025-05-05T12:41:56Z",
       "updated_at": "2025-05-05T12:41:57Z",
       "browser_download_url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-pc-windows-msvc.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 3403143,
       "digest": null,
-      "download_count": 3110,
+      "download_count": 3129,
       "created_at": "2025-05-05T12:38:44Z",
       "updated_at": "2025-05-05T12:38:44Z",
       "browser_download_url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-aarch64-unknown-linux-musl.tar.gz"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 3239958,
       "digest": null,
-      "download_count": 5155,
+      "download_count": 5165,
       "created_at": "2025-05-05T12:39:05Z",
       "updated_at": "2025-05-05T12:39:05Z",
       "browser_download_url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-pc-windows-gnu.zip"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 3125756,
       "digest": null,
-      "download_count": 15031,
+      "download_count": 15071,
       "created_at": "2025-05-05T12:41:54Z",
       "updated_at": "2025-05-05T12:41:55Z",
       "browser_download_url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-pc-windows-msvc.zip"
@@ -463,7 +463,7 @@
       "state": "uploaded",
       "size": 3592031,
       "digest": null,
-      "download_count": 8748,
+      "download_count": 8782,
       "created_at": "2025-05-05T12:40:30Z",
       "updated_at": "2025-05-05T12:40:31Z",
       "browser_download_url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-unknown-linux-gnu.tar.gz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 3679426,
       "digest": null,
-      "download_count": 5653,
+      "download_count": 5699,
       "created_at": "2025-05-05T12:41:32Z",
       "updated_at": "2025-05-05T12:41:33Z",
       "browser_download_url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64-unknown-linux-musl.tar.gz"
@@ -571,7 +571,7 @@
       "state": "uploaded",
       "size": 2738047,
       "digest": null,
-      "download_count": 1530,
+      "download_count": 1531,
       "created_at": "2025-05-05T12:39:23Z",
       "updated_at": "2025-05-05T12:39:23Z",
       "browser_download_url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy-0.13.0-x86_64.rpm"
@@ -607,7 +607,7 @@
       "state": "uploaded",
       "size": 2316404,
       "digest": null,
-      "download_count": 1949,
+      "download_count": 1955,
       "created_at": "2025-05-05T12:40:29Z",
       "updated_at": "2025-05-05T12:40:30Z",
       "browser_download_url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb"
@@ -643,7 +643,7 @@
       "state": "uploaded",
       "size": 2383608,
       "digest": null,
-      "download_count": 1029,
+      "download_count": 1031,
       "created_at": "2025-05-05T12:41:32Z",
       "updated_at": "2025-05-05T12:41:32Z",
       "browser_download_url": "https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb"
