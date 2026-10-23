@@ -38,7 +38,7 @@ x install trippy
 
 ## 流行度
 
-- **Star**: 8,059 · **Fork**: 292 · **开放 issue**: 360 · **贡献者**: 26
+- **Star**: 8,072 · **Fork**: 294 · **开放 issue**: 360 · **贡献者**: 26
 
 ## 累计统计
 
@@ -48,12 +48,12 @@ x install trippy
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 6 | 4 | 1 | 2 | 9 |
-| last60d | 2026-08-23 | 0 | 12 | 5 | 1 | 3 | 12 |
-| 90d | 2026-07-24 | 0 | 15 | 5 | 1 | 3 | 15 |
-| last180d | 2026-04-25 | 0 | 50 | 9 | 5 | 4 | 61 |
-| 360d | 2025-10-27 | 0 | 125 | 12 | 22 | 12 | 156 |
-| last720d | 2024-11-01 | 4 | 340 | 16 | 61 | 29 | 460 |
+| 30d | 2026-09-23 | 0 | 6 | 4 | 1 | 2 | 9 |
+| last60d | 2026-08-24 | 0 | 11 | 5 | 1 | 3 | 12 |
+| 90d | 2026-07-25 | 0 | 15 | 5 | 1 | 3 | 15 |
+| last180d | 2026-04-26 | 0 | 50 | 9 | 5 | 4 | 61 |
+| 360d | 2025-10-28 | 0 | 125 | 12 | 22 | 12 | 156 |
+| last720d | 2024-11-02 | 4 | 340 | 16 | 61 | 29 | 459 |
 
 ## Release 资产
 
@@ -77,6 +77,23 @@ x install trippy
 | [trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-gnu_0.13.0_amd64.deb) | 2.2 MiB | `native/linux/x64/glibc` |
 | [trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb](https://github.com/fujiapple852/trippy/releases/download/0.13.0/trippy_x86_64-unknown-linux-musl_0.13.0_amd64.deb) | 2.3 MiB | `native/linux/x64/musl` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/trippy) 上共有 **54** 个发行版报告此项目。**40** 个 ✅ 已是最新上游版本，**10** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `0.13.0` | ✅ latest |
+| Debian 14 | `0.13.0` | ✅ latest |
+| Debian 13 | `0.12.2` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `0.13.0` | ✅ latest |
+| Arch | `0.13.0` | ✅ latest |
+| Homebrew | `0.13.0` | ✅ latest |
+| Nix unstable | `0.13.0` | ✅ latest |
+| Void | `0.13.0` | ✅ latest |
+| Alpine edge | `0.13.0` | ✅ latest |
+| openSUSE Tumbleweed | `0.13.0` | ✅ latest |
+
 ## 改进这些数据
 
 trippy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `trippy` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -86,4 +103,4 @@ trippy 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:27:17Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:33:05Z._
