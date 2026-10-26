@@ -14,11 +14,11 @@ x install trippy
 
 ## Code insight
 
-Total: **37,581** lines of code across **164** files in the top 5 languages.
+Total: **37,642** lines of code across **164** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 26,744 | 226 | 2,369 | 99 |
+| Rust | 26,805 | 226 | 2,374 | 99 |
 | Json | 7,330 | 0 | 0 | 6 |
 | Toml | 2,746 | 276 | 363 | 47 |
 | Svg | 477 | 0 | 36 | 11 |
@@ -33,27 +33,27 @@ Total: **37,581** lines of code across **164** files in the top 5 languages.
 ## Release
 
 - **Latest**: `0.13.0` (2025-05-05)
-- **Last commit**: 2026-10-12
+- **Last commit**: 2026-10-25
 - **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 8,077 · **Forks**: 294 · **Open issues**: 361 · **Contributors**: 26
+- **Stars**: 8,083 · **Forks**: 294 · **Open issues**: 361 · **Contributors**: 28
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 1224 · **Open PRs**: 17 · **Closed issues**: 297 · **Open issues**: 64 · **Commits**: 2165
+- **Releases**: 16 · **Merged PRs**: 1229 · **Open PRs**: 15 · **Closed issues**: 300 · **Open issues**: 61 · **Commits**: 2173
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-25 | 0 | 6 | 4 | 0 | 3 | 9 |
-| last60d | 2026-08-26 | 0 | 11 | 5 | 1 | 4 | 12 |
-| 90d | 2026-07-27 | 0 | 15 | 5 | 1 | 4 | 15 |
-| last180d | 2026-04-28 | 0 | 49 | 9 | 5 | 5 | 61 |
-| 360d | 2025-10-30 | 0 | 123 | 12 | 21 | 13 | 156 |
-| last720d | 2024-11-04 | 4 | 337 | 16 | 60 | 30 | 456 |
+| 30d | 2026-09-26 | 0 | 9 | 3 | 2 | 1 | 14 |
+| last60d | 2026-08-27 | 0 | 15 | 4 | 3 | 2 | 18 |
+| 90d | 2026-07-28 | 0 | 19 | 4 | 3 | 2 | 21 |
+| last180d | 2026-04-29 | 0 | 54 | 7 | 7 | 3 | 67 |
+| 360d | 2025-10-31 | 0 | 127 | 10 | 23 | 11 | 161 |
+| last720d | 2024-11-05 | 4 | 340 | 14 | 61 | 28 | 462 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for trippy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261025.yml` · 2026-10-25T04:27:02Z._
+_Snapshot: `data/card/261026.yml` · 2026-10-26T04:29:58Z._
