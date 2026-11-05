@@ -38,22 +38,22 @@ Total: **37,642** lines of code across **164** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 8,136 · **Forks**: 299 · **Open issues**: 361 · **Contributors**: 28
+- **Stars**: 8,137 · **Forks**: 299 · **Open issues**: 361 · **Contributors**: 28
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 1229 · **Open PRs**: 18 · **Closed issues**: 300 · **Open issues**: 61 · **Commits**: 2173
+- **Releases**: 16 · **Merged PRs**: 1229 · **Open PRs**: 19 · **Closed issues**: 300 · **Open issues**: 61 · **Commits**: 2173
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 7 | 6 | 2 | 1 | 14 |
-| last60d | 2026-09-05 | 0 | 13 | 7 | 3 | 2 | 18 |
-| 90d | 2026-08-06 | 0 | 18 | 7 | 3 | 2 | 21 |
-| last180d | 2026-05-08 | 0 | 51 | 10 | 7 | 3 | 53 |
-| 360d | 2025-11-09 | 0 | 126 | 13 | 23 | 10 | 161 |
-| last720d | 2024-11-14 | 4 | 337 | 17 | 61 | 28 | 457 |
+| 30d | 2026-10-06 | 0 | 7 | 7 | 2 | 1 | 14 |
+| last60d | 2026-09-06 | 0 | 13 | 8 | 3 | 2 | 18 |
+| 90d | 2026-08-07 | 0 | 18 | 8 | 3 | 2 | 21 |
+| last180d | 2026-05-09 | 0 | 51 | 11 | 7 | 3 | 53 |
+| 360d | 2025-11-10 | 0 | 126 | 14 | 23 | 10 | 161 |
+| last720d | 2024-11-15 | 4 | 336 | 18 | 60 | 28 | 456 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for trippy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:00:03Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:26:18Z._
