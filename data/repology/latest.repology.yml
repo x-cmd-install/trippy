@@ -1,16 +1,3 @@
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: trippy
-  binnames:
-    - trippy
-  visiblename: trippy
-  version: 0.12.2
-  origversion: 0.12.2+dfsg-1
-  status: outdated
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - net
 - repo: kali_rolling
   subrepo: main
   srcname: trippy
@@ -24,19 +11,13 @@
     - ncts@debian.org
   categories:
     - misc
-- repo: raspbian_stable
-  subrepo: main
+- repo: homebrew
   srcname: trippy
-  binnames:
-    - trippy
   visiblename: trippy
-  version: 0.12.2
-  origversion: 0.12.2+dfsg-1
-  status: outdated
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - misc
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: Network diagnostic tool, inspired by mtr
 - repo: liguros_stable
   srcname: net-analyzer/trippy
   visiblename: net-analyzer/trippy
@@ -56,6 +37,57 @@
     - ZLIB
   categories:
     - net-analyzer
+- repo: gentoo
+  srcname: net-analyzer/trippy
+  visiblename: net-analyzer/trippy
+  version: 0.12.2
+  origversion: null
+  status: legacy
+  summary: A network diagnostic tool
+  maintainers:
+    - flow@gentoo.org
+  licenses:
+    - Apache-2.0
+    - BSD
+    - ISC
+    - MIT
+    - Unicode-3.0
+    - WTFPL-2
+    - ZLIB
+  categories:
+    - net-analyzer
+- repo: gentoo
+  srcname: net-analyzer/trippy
+  visiblename: net-analyzer/trippy
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: A network diagnostic tool
+  maintainers:
+    - flow@gentoo.org
+  licenses:
+    - Apache-2.0
+    - BSD
+    - ISC
+    - MIT
+    - Unicode-3.0
+    - WTFPL-2
+    - ZLIB
+  categories:
+    - net-analyzer
+- repo: raspbian_stable
+  subrepo: main
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.12.2
+  origversion: 0.12.2+dfsg-1
+  status: outdated
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - misc
 - repo: liguros_stable
   srcname: net-analyzer/trippy
   visiblename: net-analyzer/trippy
@@ -75,6 +107,38 @@
     - ZLIB
   categories:
     - net-analyzer
+- repo: liguros_develop
+  srcname: net-analyzer/trippy
+  visiblename: net-analyzer/trippy
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: A network diagnostic tool
+  maintainers:
+    - flow@gentoo.org
+  licenses:
+    - Apache-2.0
+    - BSD
+    - ISC
+    - MIT
+    - Unicode-3.0
+    - WTFPL-2
+    - ZLIB
+  categories:
+    - net-analyzer
+- repo: raspbian_testing
+  subrepo: main
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0+dfsg-3
+  status: newest
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - misc
 - repo: alpine_edge
   subrepo: testing
   srcname: trippy
@@ -101,6 +165,13 @@
     - simon-alpine@fraho.eu
   licenses:
     - Apache-2.0
+- repo: homebrew
+  srcname: trippy
+  visiblename: trippy
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Network diagnostic tool, inspired by mtr
 - repo: alpine_edge
   subrepo: testing
   srcname: trippy
@@ -263,77 +334,93 @@
     - ehaupt@freebsd.org
   categories:
     - net
-- repo: gentoo
-  srcname: net-analyzer/trippy
-  visiblename: net-analyzer/trippy
+- repo: scoop
+  subrepo: main
+  binname: trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: null
+  status: newest
+  licenses:
+    - Apache-2.0
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
   version: 0.12.2
-  origversion: null
-  status: legacy
-  summary: A network diagnostic tool
+  origversion: 0.12.2+dfsg-1
+  status: outdated
   maintainers:
-    - flow@gentoo.org
-  licenses:
-    - Apache-2.0
-    - BSD
-    - ISC
-    - MIT
-    - Unicode-3.0
-    - WTFPL-2
-    - ZLIB
+    - ncts@debian.org
   categories:
-    - net-analyzer
-- repo: gentoo
-  srcname: net-analyzer/trippy
-  visiblename: net-analyzer/trippy
-  version: 0.13.0
-  origversion: null
-  status: newest
-  summary: A network diagnostic tool
-  maintainers:
-    - flow@gentoo.org
-  licenses:
-    - Apache-2.0
-    - BSD
-    - ISC
-    - MIT
-    - Unicode-3.0
-    - WTFPL-2
-    - ZLIB
-  categories:
-    - net-analyzer
-- repo: homebrew
+    - universe/misc
+- repo: ubuntu_25_10
+  subrepo: questing/universe
   srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.12.2
+  origversion: 0.12.2+dfsg-1
+  status: outdated
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: trippy
+  binnames:
+    - trippy
   visiblename: trippy
   version: 0.13.0
-  origversion: null
+  origversion: 0.13.0+dfsg-1.4
   status: newest
-  summary: Network diagnostic tool, inspired by mtr
-- repo: homebrew
-  srcname: trippy
-  visiblename: trippy
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Network diagnostic tool, inspired by mtr
-- repo: liguros_develop
-  srcname: net-analyzer/trippy
-  visiblename: net-analyzer/trippy
-  version: 0.13.0
-  origversion: null
-  status: newest
-  summary: A network diagnostic tool
   maintainers:
-    - flow@gentoo.org
+    - ncts@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_26_10
+  subrepo: stonking/universe
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0+dfsg-3
+  status: newest
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0+dfsg-3
+  status: newest
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - universe/misc
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: trippy
+  binname: trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0_1
+  status: newest
+  summary: Tool to assist with analysis of networking issues
+  maintainers:
+    - pangolin@vivaldi.net
   licenses:
     - Apache-2.0
-    - BSD
-    - ISC
-    - MIT
-    - Unicode-3.0
-    - WTFPL-2
-    - ZLIB
-  categories:
-    - net-analyzer
 - repo: liguros_develop
   srcname: net-analyzer/trippy
   visiblename: net-analyzer/trippy
@@ -358,23 +445,23 @@
   srcname: trippy
   binname: trippy
   visiblename: trippy
-  version: 0.8.0
-  origversion: 0.8.0-1
-  status: outdated
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
   summary: A network diagnostic tool
   licenses:
-    - Apache
+    - Apache-2.0
 - repo: manjaro_testing
   subrepo: extra
   srcname: trippy
   binname: trippy
   visiblename: trippy
-  version: 0.8.0
-  origversion: 0.8.0-1
-  status: outdated
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
   summary: A network diagnostic tool
   licenses:
-    - Apache
+    - Apache-2.0
 - repo: manjaro_unstable
   subrepo: extra
   srcname: trippy
@@ -522,7 +609,7 @@
   licenses:
     - Apache-2.0
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: trippy
   binnames:
     - trippy
@@ -535,7 +622,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: trippy
   binnames:
     - trippy
@@ -583,30 +670,8 @@
     - pkgsrc-users@netbsd.org
   categories:
     - net
-- repo: raspbian_testing
-  subrepo: main
-  srcname: trippy
-  binnames:
-    - trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0+dfsg-3
-  status: newest
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
-  binname: trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: null
-  status: newest
-  licenses:
-    - Apache-2.0
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: trippy
   binnames:
     - trippy
@@ -617,56 +682,4 @@
   maintainers:
     - ncts@debian.org
   categories:
-    - universe/misc
-- repo: ubuntu_25_10
-  subrepo: questing/universe
-  srcname: trippy
-  binnames:
-    - trippy
-  visiblename: trippy
-  version: 0.12.2
-  origversion: 0.12.2+dfsg-1
-  status: outdated
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: trippy
-  binnames:
-    - trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0+dfsg-1.4
-  status: newest
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - universe/misc
-- repo: ubuntu_26_10
-  subrepo: stonking/universe
-  srcname: trippy
-  binnames:
-    - trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0+dfsg-3
-  status: newest
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - universe/misc
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: trippy
-  binname: trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0_1
-  status: newest
-  summary: Tool to assist with analysis of networking issues
-  maintainers:
-    - pangolin@vivaldi.net
-  licenses:
-    - Apache-2.0
+    - net
