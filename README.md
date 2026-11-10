@@ -38,22 +38,22 @@ Total: **37,642** lines of code across **164** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 8,143 · **Forks**: 298 · **Open issues**: 360 · **Contributors**: 28
+- **Stars**: 8,154 · **Forks**: 299 · **Open issues**: 361 · **Contributors**: 28
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 1229 · **Open PRs**: 20 · **Closed issues**: 299 · **Open issues**: 61 · **Commits**: 2173
+- **Releases**: 16 · **Merged PRs**: 1229 · **Open PRs**: 21 · **Closed issues**: 300 · **Open issues**: 61 · **Commits**: 2173
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-09 | 0 | 7 | 7 | 1 | 1 | 6 |
-| last60d | 2026-09-09 | 0 | 12 | 9 | 2 | 2 | 16 |
-| 90d | 2026-08-10 | 0 | 18 | 9 | 2 | 2 | 20 |
-| last180d | 2026-05-12 | 0 | 43 | 12 | 4 | 3 | 52 |
-| 360d | 2025-11-13 | 0 | 126 | 15 | 22 | 10 | 160 |
-| last720d | 2024-11-18 | 4 | 333 | 19 | 59 | 28 | 445 |
+| 30d | 2026-10-11 | 0 | 6 | 8 | 2 | 1 | 6 |
+| last60d | 2026-09-11 | 0 | 12 | 9 | 3 | 1 | 16 |
+| 90d | 2026-08-12 | 0 | 18 | 10 | 3 | 2 | 20 |
+| last180d | 2026-05-14 | 0 | 43 | 13 | 5 | 3 | 52 |
+| 360d | 2025-11-15 | 0 | 126 | 16 | 23 | 10 | 160 |
+| last720d | 2024-11-20 | 4 | 333 | 20 | 60 | 28 | 444 |
 
 ## Release assets
 
@@ -88,7 +88,7 @@ Reported by **55** distros on [repology.org](https://repology.org/project/trippy
 | Debian 13 | `0.12.2` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `0.13.0` | ✅ latest |
 | Arch | `0.13.0` | ✅ latest |
-| Homebrew | `HEAD` | 🔄 rolling |
+| Homebrew | `0.13.0` | ✅ latest |
 | Nix unstable | `0.13.0` | ✅ latest |
 | Void | `0.13.0` | ✅ latest |
 | Alpine edge | `0.13.0` | ✅ latest |
@@ -103,4 +103,4 @@ Install metadata for trippy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261108.yml` · 2026-11-08T05:49:36Z._
+_Snapshot: `data/card/261110.yml` · 2026-11-10T07:03:13Z._
