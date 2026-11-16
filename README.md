@@ -14,13 +14,13 @@ x install trippy
 
 ## Code insight
 
-Total: **37,657** lines of code across **164** files in the top 5 languages.
+Total: **37,690** lines of code across **165** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Rust | 26,806 | 226 | 2,374 | 99 |
+| Rust | 26,849 | 224 | 2,377 | 100 |
 | Json | 7,330 | 0 | 0 | 6 |
-| Toml | 2,760 | 276 | 365 | 47 |
+| Toml | 2,750 | 275 | 365 | 47 |
 | Svg | 477 | 0 | 36 | 11 |
 | Yaml | 82 | 0 | 4 | 1 |
 
@@ -33,27 +33,27 @@ Total: **37,657** lines of code across **164** files in the top 5 languages.
 ## Release
 
 - **Latest**: `0.13.0` (2025-05-05)
-- **Last commit**: 2026-11-14
+- **Last commit**: 2026-11-15
 - **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 8,167 · **Forks**: 299 · **Open issues**: 363 · **Contributors**: 28
+- **Stars**: 8,170 · **Forks**: 299 · **Open issues**: 364 · **Contributors**: 28
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 1236 · **Open PRs**: 16 · **Closed issues**: 301 · **Open issues**: 62 · **Commits**: 2183
+- **Releases**: 16 · **Merged PRs**: 1240 · **Open PRs**: 15 · **Closed issues**: 301 · **Open issues**: 63 · **Commits**: 2189
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 0 | 10 | 4 | 1 | 2 | 16 |
-| last60d | 2026-09-16 | 0 | 17 | 4 | 3 | 2 | 26 |
-| 90d | 2026-08-17 | 0 | 24 | 5 | 3 | 3 | 30 |
-| last180d | 2026-05-19 | 0 | 50 | 8 | 5 | 4 | 62 |
-| 360d | 2025-11-20 | 0 | 131 | 11 | 23 | 11 | 170 |
-| last720d | 2024-11-25 | 4 | 339 | 15 | 60 | 29 | 452 |
+| 30d | 2026-10-17 | 0 | 14 | 4 | 1 | 3 | 20 |
+| last60d | 2026-09-17 | 0 | 21 | 4 | 3 | 3 | 32 |
+| 90d | 2026-08-18 | 0 | 28 | 5 | 3 | 4 | 35 |
+| last180d | 2026-05-20 | 0 | 54 | 8 | 5 | 5 | 68 |
+| 360d | 2025-11-21 | 0 | 134 | 11 | 23 | 12 | 169 |
+| last720d | 2024-11-26 | 4 | 343 | 14 | 60 | 30 | 458 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for trippy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T06:09:17Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T06:09:04Z._
