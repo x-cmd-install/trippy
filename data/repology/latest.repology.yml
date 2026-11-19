@@ -1,136 +1,14 @@
-- repo: raspbian_stable
-  subrepo: main
+- repo: nix_stable_24_05
   srcname: trippy
-  binnames:
-    - trippy
   visiblename: trippy
-  version: 0.12.2
-  origversion: 0.12.2+dfsg-1
-  status: outdated
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: trippy
-  binnames:
-    - trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0+dfsg-3
-  status: newest
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - misc
-- repo: arch
-  subrepo: extra
-  srcname: trippy
-  binname: trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0-2
-  status: newest
-  summary: A network diagnostic tool
-  licenses:
-    - Apache-2.0
-- repo: chimera
-  subrepo: user
-  srcname: trippy
-  binname: trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0-r0
-  status: newest
-  summary: Network diagnostic tool combining traceroute and ping
-  licenses:
-    - Apache-2.0
-- repo: pkgsrc_current
-  srcname: net/trippy
-  binname: trippy
-  visiblename: net/trippy
-  version: 0.13.0
+  version: 0.10.0
   origversion: null
-  status: newest
-  summary: Network diagnostic tool
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - net
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: trippy
-  binnames:
-    - trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0+dfsg-3
-  status: newest
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - misc
-- repo: chimera
-  subrepo: user
-  srcname: trippy
-  binname: trippy-bashcomp
-  visiblename: trippy-bashcomp
-  version: 0.13.0
-  origversion: 0.13.0-r0
-  status: newest
-  summary: Network diagnostic tool combining traceroute and ping (bash completions)
-  licenses:
-    - Apache-2.0
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: trippy
-  binnames:
-    - trippy
-  visiblename: trippy
-  version: 0.12.2
-  origversion: 0.12.2+dfsg-1
   status: outdated
+  summary: A network diagnostic tool
   maintainers:
-    - ncts@debian.org
-  categories:
-    - net
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: trippy
-  binnames:
-    - trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: 0.13.0+dfsg-3
-  status: newest
-  maintainers:
-    - ncts@debian.org
-  categories:
-    - misc
-- repo: chimera
-  subrepo: user
-  srcname: trippy
-  binname: trippy-fishcomp
-  visiblename: trippy-fishcomp
-  version: 0.13.0
-  origversion: 0.13.0-r0
-  status: newest
-  summary: Network diagnostic tool combining traceroute and ping (fish completions)
+    - figsoda@pm.me
   licenses:
     - Apache-2.0
-- repo: freebsd
-  srcname: net/trippy
-  binname: trippy
-  visiblename: net/trippy
-  version: 0.13.0
-  origversion: 0.13.0_14
-  status: newest
-  summary: Network diagnostic tool inspired by mtr
-  maintainers:
-    - ehaupt@freebsd.org
-  categories:
-    - net
 - repo: nix_stable_24_11
   srcname: trippy
   visiblename: trippy
@@ -140,39 +18,6 @@
   summary: Network diagnostic tool
   maintainers:
     - figsoda@pm.me
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_05
-  srcname: trippy
-  visiblename: trippy
-  version: 0.12.2
-  origversion: null
-  status: outdated
-  summary: Network diagnostic tool
-  maintainers:
-    - figsoda@pm.me
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_25_11
-  srcname: trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: null
-  status: newest
-  summary: Network diagnostic tool
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - Apache-2.0
-- repo: nix_stable_26_05
-  srcname: trippy
-  visiblename: trippy
-  version: 0.13.0
-  origversion: null
-  status: newest
-  summary: Network diagnostic tool
-  maintainers:
-    - mail@beyermatthias.de
   licenses:
     - Apache-2.0
 - repo: alpine_edge
@@ -230,7 +75,7 @@
     - Apache-2.0
   categories:
     - Networking/WWW
-- repo: manjaro_unstable
+- repo: arch
   subrepo: extra
   srcname: trippy
   binname: trippy
@@ -239,6 +84,39 @@
   origversion: 0.13.0-2
   status: newest
   summary: A network diagnostic tool
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: trippy
+  binname: trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0-r0
+  status: newest
+  summary: Network diagnostic tool combining traceroute and ping
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: trippy
+  binname: trippy-bashcomp
+  visiblename: trippy-bashcomp
+  version: 0.13.0
+  origversion: 0.13.0-r0
+  status: newest
+  summary: Network diagnostic tool combining traceroute and ping (bash completions)
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: trippy
+  binname: trippy-fishcomp
+  visiblename: trippy-fishcomp
+  version: 0.13.0
+  origversion: 0.13.0-r0
+  status: newest
+  summary: Network diagnostic tool combining traceroute and ping (fish completions)
   licenses:
     - Apache-2.0
 - repo: chimera
@@ -292,6 +170,44 @@
     - ncts@debian.org
   categories:
     - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0+dfsg-3
+  status: newest
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0+dfsg-3
+  status: newest
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: freebsd
+  srcname: net/trippy
+  binname: trippy
+  visiblename: net/trippy
+  version: 0.13.0
+  origversion: 0.13.0_14
+  status: newest
+  summary: Network diagnostic tool inspired by mtr
+  maintainers:
+    - ehaupt@freebsd.org
+  categories:
+    - net
 - repo: gentoo
   srcname: net-analyzer/trippy
   visiblename: net-analyzer/trippy
@@ -455,6 +371,17 @@
   summary: A network diagnostic tool
   licenses:
     - Apache-2.0
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: trippy
+  binname: trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0-2
+  status: newest
+  summary: A network diagnostic tool
+  licenses:
+    - Apache-2.0
 - repo: msys2_clang64
   srcname: mingw-w64-trippy
   binname: mingw-w64-clang-x86_64-trippy
@@ -485,15 +412,37 @@
   summary: A network diagnostic tool (mingw-w64)
   licenses:
     - spdx:Apache-2.0
-- repo: nix_stable_24_05
+- repo: nix_stable_25_05
   srcname: trippy
   visiblename: trippy
-  version: 0.10.0
+  version: 0.12.2
   origversion: null
   status: outdated
-  summary: A network diagnostic tool
+  summary: Network diagnostic tool
   maintainers:
     - figsoda@pm.me
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_25_11
+  srcname: trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: Network diagnostic tool
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - Apache-2.0
+- repo: nix_stable_26_05
+  srcname: trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: Network diagnostic tool
+  maintainers:
+    - mail@beyermatthias.de
   licenses:
     - Apache-2.0
 - repo: nix_unstable
@@ -547,7 +496,7 @@
   licenses:
     - Apache-2.0
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: trippy
   binnames:
     - trippy
@@ -560,7 +509,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: trippy
   binnames:
     - trippy
@@ -596,6 +545,57 @@
     - pkgsrc-users@netbsd.org
   categories:
     - net
+- repo: pkgsrc_current
+  srcname: net/trippy
+  binname: trippy
+  visiblename: net/trippy
+  version: 0.13.0
+  origversion: null
+  status: newest
+  summary: Network diagnostic tool
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - net
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.12.2
+  origversion: 0.12.2+dfsg-1
+  status: outdated
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - net
+- repo: raspbian_stable
+  subrepo: main
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.12.2
+  origversion: 0.12.2+dfsg-1
+  status: outdated
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: trippy
+  binnames:
+    - trippy
+  visiblename: trippy
+  version: 0.13.0
+  origversion: 0.13.0+dfsg-3
+  status: newest
+  maintainers:
+    - ncts@debian.org
+  categories:
+    - misc
 - repo: scoop
   subrepo: main
   binname: trippy
