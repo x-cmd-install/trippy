@@ -33,27 +33,27 @@ Total: **37,690** lines of code across **165** files in the top 5 languages.
 ## Release
 
 - **Latest**: `0.13.0` (2025-05-05)
-- **Last commit**: 2026-11-19
+- **Last commit**: 2026-11-22
 - **Assets in release**: 17
 
 ## Popularity
 
-- **Stars**: 8,184 · **Forks**: 301 · **Open issues**: 364 · **Contributors**: 28
+- **Stars**: 8,187 · **Forks**: 301 · **Open issues**: 364 · **Contributors**: 28
 
 ## Totals (cumulative)
 
-- **Releases**: 16 · **Merged PRs**: 1241 · **Open PRs**: 17 · **Closed issues**: 301 · **Open issues**: 63 · **Commits**: 2191
+- **Releases**: 16 · **Merged PRs**: 1244 · **Open PRs**: 16 · **Closed issues**: 301 · **Open issues**: 63 · **Commits**: 2194
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-23 | 0 | 13 | 6 | 1 | 2 | 22 |
-| last60d | 2026-09-23 | 0 | 22 | 6 | 4 | 3 | 34 |
-| 90d | 2026-08-24 | 0 | 27 | 7 | 4 | 4 | 37 |
-| last180d | 2026-05-26 | 0 | 55 | 10 | 6 | 5 | 70 |
-| 360d | 2025-11-27 | 0 | 131 | 13 | 21 | 10 | 171 |
-| last720d | 2024-12-02 | 4 | 330 | 15 | 60 | 30 | 438 |
+| 30d | 2026-10-24 | 0 | 16 | 5 | 1 | 2 | 20 |
+| last60d | 2026-09-24 | 0 | 25 | 5 | 4 | 3 | 35 |
+| 90d | 2026-08-25 | 0 | 30 | 6 | 4 | 4 | 40 |
+| last180d | 2026-05-27 | 0 | 58 | 9 | 6 | 5 | 71 |
+| 360d | 2025-11-28 | 0 | 132 | 12 | 21 | 10 | 169 |
+| last720d | 2024-12-03 | 4 | 330 | 14 | 60 | 30 | 439 |
 
 ## Release assets
 
@@ -103,4 +103,4 @@ Install metadata for trippy lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261122.yml` · 2026-11-22T06:29:09Z._
+_Snapshot: `data/card/261123.yml` · 2026-11-23T07:20:08Z._
